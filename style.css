@@ -1,0 +1,113 @@
+/* BASE STYLE  */
+
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Roboto:wght@400;700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #707070;
+	letter-spacing: 1.5px;
+}
+
+header {
+	padding: 100px;
+}
+
+header,
+h2 {
+	text-align: center;
+}
+
+#headline {
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h1,
+h2 {
+	font-family: 'Domine', serif;
+}
+
+h1,
+h2,
+span {
+	color: #101d45;
+}
+
+header,
+#tribute-info {
+	background-color: #f0f0f0;
+}
+
+span {
+	font-weight: 700;
+}
+
+#footer-txt {
+	text-align: center;
+}
+
+/* ELEMENT STYLE  */
+
+#image {
+	max-width: 80%;
+	display: block;
+	height: auto;
+	margin: 100px auto 20px auto;
+}
+
+#img-caption {
+	text-align: center;
+	font-style: italic;
+}
+
+/* LAYOUT STYLE */
+
+h1 {
+	margin: 0;
+}
+
+h2 {
+	margin-top: 0;
+	margin-bottom: 50px;
+}
+
+#headline {
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+#img-div,
+#tribute-info {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+#tribute-info {
+	padding: 60px;
+	margin-top: 100px;
+}
+
+#img-caption {
+	max-width: 60%;
+	margin: 0 auto;
+}
+
+ul {
+	max-width: 800px;
+	margin: 0 auto 50px auto;
+	text-align: left;
+	line-height: 1.6;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
